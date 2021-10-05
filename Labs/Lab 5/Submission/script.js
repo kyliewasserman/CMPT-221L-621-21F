@@ -1,0 +1,1 @@
+document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByClassName('title')[0].innerHTML='New Text Changed through Java Script';
