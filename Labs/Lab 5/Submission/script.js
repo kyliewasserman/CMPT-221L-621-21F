@@ -7,9 +7,6 @@ document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getE
 //make the text less bossy
 document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('h3')[0].innerHTML='Pretty please do these things ... :(';
 
-//change the last li to say the name of the class
-document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')[4].innerHTML='Software Dev 2';
-
 //make the first li to be blue
 const zero = document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')[0];
 zero.style.color = "blue";
@@ -24,3 +21,7 @@ document.getElementsByTagName('body')[0].style.background = "grey";
 //make the fourth li item all uppercase
 const three = document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')[3];
 three.style.textTransform = "uppercase";
+
+//change the last li to say the name of the class
+const four = document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')[4];
+four.setAttribute("class", "title");
