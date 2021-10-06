@@ -1,8 +1,8 @@
 //h1 text change
-document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByClassName('title')[0].innerHTML='Lab 5';
+document.querySelector(".title").textContent = 'Lab 5';
 
 //description change to name
-document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('p')[1].innerHTML='Kylie Wasserman';
+document.querySelector("#description").textContent ='Kylie Wasserman';
 
 //make the text less bossy
 document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('h3')[1].innerHTML='Pretty please do these things ... :(';
