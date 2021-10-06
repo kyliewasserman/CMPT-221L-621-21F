@@ -5,7 +5,7 @@ document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getE
 document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('p')[1].innerHTML='Kylie Wasserman';
 
 //make the text less bossy
-document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('h3')[0].innerHTML='Pretty please do these things ... :(';
+document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('h3')[1].innerHTML='Pretty please do these things ... :(';
 
 //make the first li to be blue
 const zero = document.getElementsByTagName('body')[0].getElementsByTagName('section')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')[0];
