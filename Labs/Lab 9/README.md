@@ -4,3 +4,4 @@ We talked about the steps that we could possibly take to deploy a website. I wan
 
 <!-- Answer Down Here -->
 
+Assuming all of the website code is done and already connected to a database such as Mongo DB, first I would buy a domain from a website. I would then host my website on AWS and rent out a VM from them using the domain I just brought from a different website.
